@@ -1,0 +1,51 @@
+Fibonacci series
+Checking for Prime Number
+String Palindrome
+Integer Palindrome
+Armstrong Number
+Avoiding Deadlocks
+Factorial Program
+Reversing Strings
+Removing Strings
+Removing Repeated elements
+Printing Patterns
+Printing patterns
+priting repetative characters
+LCM and GCD of two numbers
+Reversing an array in place
+Reversing the order of words
+Determining leap year
+Performing binary search
+Checking for anagrams
+Designing a vending machine
+Reversing a number
+First unique character of a string
+Find middle element of a Linked list
+Performing pre order traversal
+preOrder traversal without recursion
+Performing inOrder traversal
+In order traversal without recursion
+performing post order traversal
+post order traversal without recusion
+printing all leaves of binary tree
+sorting array using quick sort
+performing insertion sort
+performing bubble sort
+transposing a matrix
+printing all permutations of a string
+reversing a string in place
+Adding matrices
+multiplying matrices
+removing spaces in a string
+reversing a linked list
+finding the length of a linked list
+checking for loops in a linked list
+find start of looping in a linked list
+finding the middle element of a linked list
+Find Nth element from the tail of a linked list
+Converting a linked list to a binary tree
+Sorting a linked list
+Performing a bucket sort
+Performing counting sort
+Performing merge sort
+Check if 2 strings are rotations of each other
