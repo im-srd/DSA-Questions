@@ -8,3 +8,4 @@ def checkPrime(num):
 print(checkPrime(42))
 print(checkPrime(2))
 print(checkPrime(0))
+print(checkPrime(13))
