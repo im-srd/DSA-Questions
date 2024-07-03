@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Match Result</title>
+</head>
+<body>
+    <h1>Cricket Simulation Game - Result</h1>
+    <h2>Team1: {{ cricket.team1_name }} -> {{ cricket.team1 }}</h2>
+    <h2>Team2: {{ cricket.team2_name }} -> {{ cricket.team2 }}</h2>
+
+    <h3>{{ cricket.team1_name }} batting:</h3>
+    <p>{{ cricket.team1_name }} scored {{ cricket.team1_runs }} runs with {{ cricket.team1_wickets }} wickets.</p>
+    <ul>
+        {% for player, score in cricket.team1_scores.items() %}
+            <li>{{ player }}: {{ score }} runs</li>
+        {% endfor %}
+    </ul>
+    <ol>
+        {% for i, over_score in enumerate(cricket.team1_over_scores, 1) %}
+            <li>Over {{ i }}: {{ over_score }}</li>
+        {% endfor %}
+    </ol>
+
+    <h3>{{ cricket.team2_name }} batting:</h3>
+    <p>{{ cricket.team2_name }} scored {{ cricket.team2_runs }} runs with {{ cricket.team2_wickets }} wickets.</p>
+    <ul>
+        {% for player, score in cricket.team2_scores.items() %}
+            <li>{{ player }}: {{ score }} runs</li>
+        {% endfor %}
+    </ul>
+    <ol>
+        {% for i, over_score in enumerate(cricket.team2_over_scores, 1) %}
+            <li>Over {{ i }}: {{ over_score }}</li>
+        {% endfor %}
+    </ol>
+
+    <h2>Result: {{ result }}</h2>
+
+    <a href="{{ url_for('index') }}">Play Again</a>
+</body>
+</html>
